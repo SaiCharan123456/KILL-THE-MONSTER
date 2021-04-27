@@ -122,19 +122,3 @@ function keyPressed(){
   }
 }
 
-/*async function getTime(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-  var responseJson=await response.json();
-  console.log(responseJson);
-  var dateTime = responseJson.datetime;
-  console.log(dateTime);
-  var hour =dateTime.slice(11,13);
-  console.log(hour);
-  if(hour >= 6 && hour <= 19){
-  bg = "gamingbackground2.png";
-  }
-  else{
-      bg = "gamingbackground1.jpg";
-  }
-  bgImg = loadImage(bg);
-  }*/
