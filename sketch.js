@@ -9,7 +9,8 @@ var hero,monster,rope,ground;
 var bgImg;
 
 function preload() {
-  getTime();
+  bgImg = loadImage("gamingbackground2.png");
+ // getTime();
 }
 
 function setup() {
@@ -59,9 +60,9 @@ function setup() {
 }
 
 function draw() {
-  if(bgImg){
+  //if(bgImg){
     background(bgImg);
-}
+//}
   Engine.update(engine);
   ground.display();
   box1.display();
@@ -121,7 +122,7 @@ function keyPressed(){
   }
 }
 
-async function getTime(){
+/*async function getTime(){
   var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var responseJson=await response.json();
   console.log(responseJson);
