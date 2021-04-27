@@ -137,4 +137,4 @@ function keyPressed(){
       bg = "gamingbackground1.jpg";
   }
   bgImg = loadImage(bg);
-  }
+  }*/
